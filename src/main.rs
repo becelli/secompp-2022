@@ -7,7 +7,8 @@ mod _05_structs_enums;
 mod _06_flow_control;
 mod _07_scopes;
 mod _08_pattern;
-mod _slices_and_references;
+mod _09_slices;
+mod _10_borrowing;
 fn main() {
     // _01_variables_and_constants::example();
     // _03_functions::example();
@@ -17,5 +18,6 @@ fn main() {
     // _06_flow_control::example();
     // _07_scopes::example();
     // _08_pattern::example();
-    _slices_and_references::example();
+    // _09_slices::example();
+    _10_borrowing::example();
 }
